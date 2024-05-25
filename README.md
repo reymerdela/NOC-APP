@@ -12,6 +12,8 @@ PORT=3000
 MAILER_EMAIL=
 MAILER_SECRET_KEY=
 PROD=false
+...
 ```
+3. Ejecutar el contenedor de docker `docker compose up -d`
+4. Ejecutar el comando `npm install`
 
-3. Ejecutar el comando `npm install`
