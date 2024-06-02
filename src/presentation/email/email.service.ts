@@ -7,7 +7,7 @@ interface Attachment {
   path: string
 }
 
-interface SendEmailOptions {
+export interface SendEmailOptions {
   to: string | string[]
   subject: string
   htmlBody: string

@@ -31,6 +31,7 @@ export class SendEmailLogs implements SendEmailLogsUseCase {
         origin: 'send-email-logs.ts',
         level: LogSeverityLevel.High,
       })
+      
       this.logRepository.saveLog(log)
       return false
     }
